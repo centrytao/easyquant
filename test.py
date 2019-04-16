@@ -35,7 +35,7 @@ class LFEngine(PushBaseEngine):
         self.source = easyquotation.use('lf')
 
     def fetch_quotation(self):
-        return self.source.stocks(['162411', '000002'])
+        return self.source.stocks(['162411', '000003'])
 
 
 quotation_choose = input('请输入使用行情引擎 1: sina 2: leverfun 十档 行情(目前只选择了 162411, 000002)\n:')
